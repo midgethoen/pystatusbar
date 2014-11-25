@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		70091394172D5F24000BBEDC /* ding.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ding.py; sourceTree = "<group>"; };
+		706D1BE3172EAC670014984E /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		70091389172D5E9B000BBEDC = {
 			isa = PBXGroup;
 			children = (
+				70091394172D5F24000BBEDC /* ding.py */,
+				706D1BE3172EAC670014984E /* img.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +29,8 @@
 			buildConfigurationList = 70091391172D5E9C000BBEDC /* Build configuration list for PBXLegacyTarget "PyStatusbaricon" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/python2.7;
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = PyStatusbaricon;
@@ -152,6 +160,7 @@
 				70091393172D5E9C000BBEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
